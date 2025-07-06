@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flambeau Packing List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="login-screen">
+    <h1>Flambeau Packing List</h1>
+    <input type="text" id="username" placeholder="Enter your name" />
+    <button id="login-btn">Login</button>
+  </div>
+
+  <div id="main-screen" style="display: none;">
+    <h2>Welcome, <span id="current-user"></span>!</h2>
+    <button id="logout-btn">Logout</button>
+
+    <h3>Friends</h3>
+    <ul id="friends-list"></ul>
+
+    <h3 id="list-title">Your Packing List</h3>
+    <ul id="packing-list"></ul>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>

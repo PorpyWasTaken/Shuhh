@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+#login-screen, #main-screen {
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#friends-list li {
+  cursor: pointer;
+}
+
+#friends-list li:hover {
+  background-color: #ecf0f1;
+}
